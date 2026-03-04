@@ -1,7 +1,5 @@
 # Clustering Literature on Supervised Learning by Classification
 
-*Made for the course ID2223 Scalable Machine Learning and Deep Learning at KTH Royal Institute of Technology.*
-
 The project clusters the literature from the ACM Digital Library on the topic of Supervised Learning by Classification, by using the abstracts of the papers as input. The clustering is done by using the K-Means algorithm, and the results are visualized in a user interface, displaying the clusters for the last month, 6 months, and 12 months.
 
 The system is built in the form of a Serverless Machine Learning System, where the data is scraped periodically, stored in a feature store (Hopsworks), and then used to form clusters. The results are then saved to the feature store, and visualized in a user interface, which is deployed on GitHub Pages. These steps are run separately on GitHub Actions.
